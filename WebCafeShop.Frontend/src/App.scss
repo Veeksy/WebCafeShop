@@ -1,0 +1,224 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Bootstrap mixins and functions
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/functions";
+
+// Change variables here
+@import "../scss/ComponentsScss/variables";
+
+@import "../scss/ComponentsScss//themes/variables-dark";
+ @import "../scss/ComponentsScss//themes/variables-light"; 
+
+// volt mixins & functions
+@import "../scss/ComponentsScss/mixins/";
+@import "../scss/ComponentsScss/functions";
+// Utilities
+ @import "../scss/ComponentsScss/reboot";
+ @import "../scss/ComponentsScss/utilities";
+// Layout
+ @import "../scss/ComponentsScss/layout";
+ // Components
+ @import "../scss/ComponentsScss/components";
+
+//pages
+
+#root{
+  $bg-color-test:#FFFF
+}
+.fff{
+  background-color:var(--bg-color-test);
+}
+
+
+
+// write your custom styles here!
+
+.styleSelect {
+  background:darkgray;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px black, 0 0.625em 0 0 darkgrey;
+
+}
+
+.nostyleSelect{
+  // background:#f5f8fb;
+  background:black;
+}
+
+
+.panelDataGrid{
+
+  display: inline-flex;
+  width: 100%;
+
+  
+  button {
+      padding-left: 55px;
+  }
+
+}
+.alertPanel{
+  position:static;
+  margin-left: 20px;
+  width: 80%;
+  padding: 0 !important;
+}
+.panelDataGrid-Rigt{
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top:0;
+  padding: 20px;
+  p {
+      position: absolute;
+      font-size: 12px;
+      left: 0;
+      padding: 7px 43px; 
+   
+  }
+  select{
+      width: 135px;
+      position: absolute;
+      right: 0;
+      top:0;
+  }
+
+  button{
+      right: 15px;
+      position: relative;
+  }
+}
+
+.tablName{
+  position: relative;
+  left: 0;
+  p {
+      position: relative;
+      left: 30px;
+      padding: 10px;
+      font-size: 20px;
+      color: var( --color-head);
+  }
+}
+
+
+.buttonnav{
+  margin-top: 13px;
+  margin-left: 15px;
+  position: absolute;
+  top:0;
+  left: 0;
+  font-size: 10px;
+}
+
+
+
+.floating-label{
+  color: #b7bbc2 !important;
+}
+  .floating-input  {
+      padding: 3px !important;
+      height: 45px !important;
+      border-radius: 0.2rem !important;
+      border:none !important;
+      font-size: 14px;
+      background-color: var(--input-color-bg);
+}
+
+  .floating-input:focus{
+      background-color: #f5f8fb;
+      border: none  !important;
+      box-shadow: none !important;
+  }
+.floatingTableHead {
+  color: #CCCCCC !important;
+
+
+
+
+
+
+  button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 3px 3px;
+  }
+}
+  .floatingTableHead:focus{
+      transform: scale(0.65) translateY(-0.5rem) translateX(0.15rem) !important;
+      opacity: 0.50;
+  }
+  .floating-input-true{
+      
+      height: 35px !important;
+      border-radius: 0.2rem !important;
+    
+    
+   
+  }
+
+
+  .panelSign{
+      width: 600px;
+      height: 600px;
+      position: relative !important;
+      padding: 50px  250px;
+  }
+// @media (min-width: 767px) { 
+//     .buttonnav {
+//         display: none;
+//     }
+
+  
+// }
+
+.checkSelectAll{
+  bottom: 19px;
+  position: relative;
+}
+.form-floating > label {
+  padding: initial;
+  padding: 1rem 2rem;
+}
+
+
+
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-control-plaintext ~ label, .form-floating > .form-select ~ label{
+  opacity: 0.55 !important;
+  transform: scale(0.65) translateY(-0.5rem) translateX(0.15rem);
+}
+
+.form-selectType{
+  box-shadow: none !important;
+}
+
+
+.alertObject{
+  width: 50%;
+  position: absolute;
+  top:10px;
+  margin-left: 371px;
+}
+.table {
+  --bs-table-hover-bg :  var(--bg-color-tbl-hover);
+}
+
+.inputPadding {
+  padding-bottom: 10px !important;
+}
+
+.rw-combobox-input{
+height: 54px !important;
+}
+
+.cleaner{
+  padding: 10px 0 10px;
+}
+
+
+.tableMUIsm{
+  label{
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,66 @@
+
+
+
+
+
+[data-theme="light"] {
+    $dark: #2E3650;
+    $light: #F5F8FB;
+    $lightDark: #3E496C;
+    --color-head: #262B40;
+    --bg-color-head: #F5F8FB;
+    --input-color-bg: $light;
+    --preloader-bg: #F5F8FB;
+
+
+    .AddButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .EditButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .DeleteButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .DetailsButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .AddDupButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .PrintButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .HistoryButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .DownloadButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .UpLoadButton:hover {
+        background-color: #FAFCFD
+    }
+
+    .sts-complite{
+        background-color: $clrlight-complite;
+    }
+    .sts-inwork{
+        background-color: $clrlight-inwork;
+    }
+    .sts-over{
+        background-color: $clrlight-over;
+    }
+    .sts-archive{
+       background-color: $clrlight-arch;
+
+        
+    }
+}

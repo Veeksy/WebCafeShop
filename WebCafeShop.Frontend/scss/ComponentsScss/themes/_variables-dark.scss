@@ -1,0 +1,518 @@
+
+
+
+
+[data-theme="dark"] {
+    $dark: #2E3650;
+    $light: #F5F8FB;
+    $lightDark: #3E496C;
+    --bg-color-head: #2E3650;
+    --bg-color-tbl-hover: #3E466C;
+    --input-color-bg: $lightDark;
+    --color-head: #F5F8FB;
+    --preloader-bg: #2E3650;
+
+    .sidebar {
+        box-shadow: 2px 0 6px rgba(255, 255, 255, 0.5)
+    }
+
+    html {
+        background-color: $dark;
+        color: $light;
+    }
+
+    .content {
+        background-color: $dark;
+        color: $light;
+    }
+
+    h1, h2, h3, h4, h5 {
+        color: $light;
+    }
+
+    a, .text-action {
+        color: $light;
+    }
+
+    .btn {
+        color: #F5F8FB !important;
+        border-radius: 1px;
+        //    #242F3D
+        //     #17212B
+    }
+
+    .rw-widget-input {
+        color: #f5f8fb;
+    }
+
+    .form-check-input {
+        background-color: #798DB0 !important;
+        border-color: #262b40;
+    }
+
+    .form-check-input:checked {
+        background-color: #798DB0;
+    }
+
+    .btn-dark-theme {
+        padding: 10px !important;
+        border-radius: 0.5rem;
+        border-top-right-radius: 0.5rem !important;
+        border-bottom-right-radius: 0.5rem !important;
+    }
+
+    .input-group-text {
+        background-color: #3E496C;
+    }
+
+    .input-group input {
+        background-color: #3E496C;
+    }
+
+    --bs-table-hover-bg: #3E496C;
+
+    .tableObject {
+        background-color: #2E3650;
+        color: #F5F8FB;
+    }
+
+    .tableObject th, thead {
+        background-color: #3E496C !important;
+    }
+
+    .tableObject a {
+        color: #F5F8FB;
+    }
+
+    .pageName {
+        background-color: $lightDark;
+    }
+
+    .orderHead {
+        background-color: $lightDark !important;
+    }
+
+    .card-header {
+        background-color: $lightDark !important;
+    }
+
+    .tableObject input {
+      //  background-color: #3E496C;
+        color: #F5F8FB;
+
+        input:disabled {
+            background-color: #3E496C;
+            color: #F5F8FB;
+        }
+    }
+
+    .thead-light {
+        th {
+            span {
+                color: $light !important;
+            }
+        }
+    }
+
+    .btn-action-dark {
+        padding: 5px !important;
+        border: none;
+    }
+
+    .btn-action-dark:hover {
+        background-color: #3E496C;
+        border-radius: 50%;
+        border-top-right-radius: 50% !important;
+        border-bottom-right-radius: 50% !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: $lightDark;
+    }
+
+    .css-1hv8oq8-MuiStepLabel-label {
+        color: $light;
+    }
+
+    .css-1hv8oq8-MuiStepLabel-label.Mui-active {
+        color: $light;
+    }
+
+    .css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+        color: $light;
+    }
+
+    .card {
+        background-color: $dark;
+        color: $light;
+    }
+
+    .card-FirstItem-bg {
+        background-color: #CCEDFF;
+    }
+
+    .card-ProgresItem-bg {
+        background-color: #E9F8D4;
+    }
+
+    .card-DoneItem-bg {
+        background-color: #FFE1D7;
+    }
+
+    .card-CancelItem-bg {
+        background-color: #f0f0f0;
+    }
+
+    .card-kanban-container-color {
+        color: $lightDark;
+    }
+
+    .card-kanban-text {
+
+        .content {
+            color: #707090;
+            background: none !important;
+        }
+    }
+
+
+    .styleInWork {
+        color: #00A1FF;
+
+        a {
+            color: #00A1FF;
+        }
+
+        tr:hover {
+            color: #00A1FF;
+        }
+    }
+
+    .styleProgres {
+        color: #8DDB27;
+
+        a {
+            color: #8DDB27;
+        }
+
+        tr:hover {
+            color: #8DDB27;
+        }
+    }
+
+    .styleComplite {
+        color: #C70838;
+
+        a {
+            color: #C70838;
+        }
+
+        tr:hover {
+            color: #C70838;
+        }
+    }
+
+    .styleCancel {
+        color: #A6A6A6;
+
+        a {
+            color: #A6A6A6;
+        }
+
+        tr:hover {
+            color: #A6A6A6;
+        }
+    }
+
+
+    .sts-complite {
+        background-color: $clrlight-complite;
+        color: $dark;
+
+        a {
+            color: $dark
+        }
+    }
+
+    .sts-inwork {
+        background-color: $clrlight-inwork;
+        color: $dark;
+
+        a {
+            color: $dark
+        }
+    }
+
+    .sts-over {
+        background-color: $clrlight-over;
+        color: $dark;
+
+        a {
+            color: $dark
+        }
+    }
+
+    .sts-archive {
+        background-color: $clrlight-arch;
+        color: $dark;
+
+        a {
+            color: $dark
+        }
+    }
+
+    body {
+        background-color: $dark !important;
+    }
+
+    .table {
+        --bs-table-hover-color: $light;
+    }
+
+    .table .thead-light th {
+        color: $light;
+    }
+
+    .floatingTableHead input {
+        background-color: $lightDark;
+        border: none;
+        color: $light;
+    }
+
+    .form-label {
+        color: $light;
+    }
+
+    .rw-combobox-input {
+        background-color: #3E496C;
+        color: #F5F8FB;
+    }
+
+    .rw-widget-picker {
+        border: none;
+        border-radius: 2px;
+        background-color: $lightDark;
+    }
+
+    .rw-input-addon, .rw-input-addon.rw-picker-btn {
+        background-color: $lightDark;
+        border-left: $dark 1px solid
+    }
+
+    .floatingTableHead select, textarea {
+        background-color: $lightDark;
+        border: none;
+        color: $light;
+    }
+
+    .nav-tabs {
+        border-bottom: var(--bs-nav-tabs-border-width) solid $lightDark
+    }
+
+    .nav-tabs .nav-link {
+        background-color: $lightDark;
+        color: $light;
+    }
+
+    .form-select {
+        background-color: $lightDark;
+        color: $light;
+        border: 0.1rem solid;
+        border-color: #2e3650;
+    }
+
+    .form-control {
+        background-color: $dark !important;
+        color: #F5F8FB;
+        border: 0.1rem solid;
+        border-color: $lightDark;
+
+        .textarea {
+            border: 0.1rem solid $lightDark
+        }
+    }
+
+    .textarea {
+        border: 0.1rem solid $lightDark
+    }
+
+    .form-floating > .form-control, .form-floating > .form-control-plaintext {
+        background-color: $dark;
+        color: $light;
+        border: 0.1rem solid #3E496C;
+    }
+
+    .bg-white {
+        background-color: $lightDark !important;
+        border: none !important;
+    }
+
+    .loginForm label, input {
+        color: $light;
+        // background-color: $lightDark;
+    }
+
+    .textfield-tablhead label {
+        color: $light !important;
+        background-color: $lightDark;
+        position: static;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .paginat button {
+        color: $light;
+        border: 1px solid $light
+    }
+
+    .paginat div {
+        color: $light;
+    }
+
+    .paginat .css-1y7coo4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+        background-color: #3e496c !important;
+    }
+
+    .modal-content {
+        background-color: $dark;
+        border: 1px solid $lightDark;
+    }
+
+    .input-group .btn {
+        background-color: $dark;
+    }
+
+    .span {
+        color: $light !important;
+    }
+
+    label {
+        color: $light;
+    }
+
+    input {
+        // background-color: #3E496C !important;
+        color: #F5F8FB !important;
+    }
+
+    textarea {
+        background-color: #3E496C !important;
+        color: #F5F8FB !important;
+    }
+
+    text {
+        fill: $light !important;
+    }
+
+    .MuiSelect-select {
+        color: $light;
+    }
+
+
+    .chk-filter-mail.overdue {
+        background-color: #FFE1D7 !important;
+        /*         label{
+            color:#262B40 !important;
+        } */
+        /*   a{
+            color:#FFE1D7;
+        } */
+    }
+
+    .AddButton:hover {
+        background-color: #3e496c
+    }
+
+    .EditButton:hover {
+        background-color: #3e496c
+    }
+
+    .DeleteButton:hover {
+        background-color: #3e496c
+    }
+
+    .DetailsButton:hover {
+        background-color: #3e496c
+    }
+
+    .AddDupButton:hover {
+        background-color: #3e496c
+    }
+
+    .PrintButton:hover {
+        background-color: #3e496c
+    }
+
+    .HistoryButton:hover {
+        background-color: #3e496c
+    }
+
+    .DownloadButton:hover {
+        background-color: #3e496c
+    }
+
+    .UpLoadButton:hover {
+        background-color: #3e496c
+    }
+
+
+
+
+
+    .chk-filter-mail.complite {
+        background-color: #E9F8D4;
+        /*    label{
+            color:#E9F8D4 !important;;
+        } */
+        /*   a{
+            color:#E9F8D4;
+        } */
+    }
+
+    .chk-filter-mail.InWork {
+        background-color: #CCEDFF;
+        /*  label{
+            color:#CCEDFF !important;;
+        } */
+        /*    a{
+            color:#CCEDFF;
+        } */
+    }
+
+    .chk-filter-mail.Archive {
+        color: #B3B3B3;
+        /*      label{
+            color:#B3B3B3 !important;
+        } */
+    }
+
+    .chk-filter-mail.private {
+        color: #ae9de6;
+        /*    label{
+            color:#ae9de6 !important;
+        } */
+        a {
+            color: #ae9de6;
+        }
+    }
+
+    .chk-filter-mail.none {
+        color: #262B40;
+
+        a {
+            color: #262B40;
+        }
+    }
+
+    .text-banerDev{
+        color:$light
+    }
+
+    .tableMUIsm {
+        label{
+        color: $light !important;
+
+    }
+    input { background-color: none !important;}
+    }
+}
